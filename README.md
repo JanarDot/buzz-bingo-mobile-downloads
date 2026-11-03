@@ -2,12 +2,16 @@
 
 Public Android APK downloads for invited Buzz Bingo mobile prototype testers.
 
-Canonical direct Android download:
+Canonical Android download page (use this link in guides and browser surfaces):
 
-https://buzz-bingo-mobile-testers.vercel.app/tester-guide/buzz-bingo-v0.9.0-android-arm64.apk
+https://www.buzzbingo.app/tester-guide/
 
 GitHub release archive and fallback:
 
 https://github.com/JanarDot/buzz-bingo-mobile-downloads/releases/latest/download/buzz-bingo-android-arm64.apk
 
-Every published release must keep the archive asset filename `buzz-bingo-android-arm64.apk`. Every tester-site deployment must expose a fresh versioned URL and filename. The versioned tester-site URL is the link used in Buzz Bingo browser surfaces and guides.
+Every published release must keep the asset filename `buzz-bingo-android-arm64.apk`. The tester guide checks the APK against its published file size and SHA-256 before offering the save action.
+
+This repository is public. Never add secrets, keys or private files here.
+
+Changes go through a pull request. A merge does not publish the website; see the Buzz Bingo release runbook kept by the project owner.
